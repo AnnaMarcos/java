@@ -1,4 +1,3 @@
-// test only for me//not a homework//
 package ru.stqa.pft.sandbox;
 
 public class PointDist {
