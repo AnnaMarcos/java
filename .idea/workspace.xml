@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89538d99-b77e-4ffa-b491-a8f25145c5cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/PointDist.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/PointDist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -72,13 +86,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.TwoPoints">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.stqa.pft.sandbox" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TwoPointsTest">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -122,8 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoPointsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.TwoPointsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TwoPointsTest" />
         <item itemvalue="Application.TwoPoints" />
         <item itemvalue="TestNG.SquareTest" />
         <item itemvalue="Application.MyFirstProgram" />
@@ -143,6 +185,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="154" key="#Project_Structure" timestamp="1590353925658">
       <screen x="0" y="0" width="1920" height="1160" />
@@ -156,25 +209,29 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590354153079" />
-    <state width="1877" height="482" key="GridCell.Tab.0.bottom" timestamp="1590365242906">
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom" timestamp="1590372995803">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590365242906" />
-    <state width="1877" height="482" key="GridCell.Tab.0.center" timestamp="1590365242905">
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590372995803" />
+    <state width="1877" height="482" key="GridCell.Tab.0.center" timestamp="1590372995803">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="482" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590365242905" />
-    <state width="1877" height="482" key="GridCell.Tab.0.left" timestamp="1590365242905">
+    <state width="1877" height="482" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590372995803" />
+    <state width="1877" height="482" key="GridCell.Tab.0.left" timestamp="1590372995803">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="482" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590365242905" />
-    <state width="1877" height="482" key="GridCell.Tab.0.right" timestamp="1590365242905">
+    <state width="1877" height="482" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590372995803" />
+    <state width="1877" height="482" key="GridCell.Tab.0.right" timestamp="1590372995803">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="482" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590365242905" />
+    <state width="1877" height="482" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590372995803" />
     <state x="440" y="154" key="SettingsEditor" timestamp="1590357227062">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="440" y="154" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590357227062" />
+    <state x="731" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590373175887">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="731" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1160/1920.0.1920.1040@0.0.1920.1160" timestamp="1590373175887" />
   </component>
 </project>
